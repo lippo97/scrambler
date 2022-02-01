@@ -2,7 +2,7 @@
 
 A terminal-based 3x3x3 cube scrambler and timer.
 
-!(Demo)[./demo.gif]
+![Demo](./demo.gif)
 
 ## Setup
 
