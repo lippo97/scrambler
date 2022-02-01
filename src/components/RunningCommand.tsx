@@ -11,6 +11,11 @@ const keys: Key[] = [
         description: 'to abort the execution',
         color: 'red',
     },
+    {
+        key: 'q',
+        description: 'to leave application',
+        color: 'red',
+    }
 ];
 
 export const RunningCommand = () => <Commands keys={keys} />;
