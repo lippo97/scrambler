@@ -29,17 +29,22 @@
 			],
 			"rewritePaths": {
 				"source/": "dist/"
-			}
+			},
+            "compile": "tsc"
 		}
 	},
 	"xo": {
 		"extends": "xo-react",
+        "ignores": ["**/*.js"],
+        "space":  true,
 		"rules": {
-			"react/prop-types": "off"
+			"import/extensions": "off",
+			"react/prop-types": "off",
+			"unicorn/filename-case": "off"
 		}
 	},
 	"devDependencies": {
-		"@ava/typescript": "^3.0.1",
+		"@ava/typescript": "2",
 		"@sindresorhus/tsconfig": "^2.0.0",
 		"@types/ink-big-text": "^1.2.1",
 		"@types/ink-gradient": "^2.0.1",
